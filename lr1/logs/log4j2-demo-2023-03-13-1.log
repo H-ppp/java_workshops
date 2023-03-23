@@ -1,0 +1,890 @@
+2023-03-13 09:51:46.157  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 09:51:46.230  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 17588 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 09:51:46.236  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 09:51:46.298  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-13 09:51:46.299  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-13 09:51:47.622  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6c6003bb-202c-3248-8362-7984829bc22e
+2023-03-13 09:51:47.960  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 09:51:47.974  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 09:51:47.975  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-13 09:51:47.976  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 09:51:48.907  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 09:51:48.908  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 09:51:48.908  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 09:51:48.909  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 09:51:48.909  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 09:51:48.910  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 09:51:48.910  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 09:51:48.911  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 09:51:48.911  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 09:51:48.912  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 09:51:48.912  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 09:51:48.913  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 09:51:48.913  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 09:51:48.914  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 09:51:49.343  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 09:51:49.642  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-13 09:51:49.715  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 09:51:49.735  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 09:51:49.898  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 4.152 seconds (process running for 5.171)
+2023-03-13 09:51:49.905  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Info log
+2023-03-13 09:51:49.905  WARN DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Warning
+2023-03-13 09:51:49.906 ERROR DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Error 
+2023-03-13 09:51:49.906 FATAL DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 09:52:18.144 ERROR DESKTOP-S8A3V6O --- [nio-8080-exec-4] a.w.r.e.AbstractErrorWebExceptionHandler : [277d6d22]  500 Server Error for HTTP GET "/number?num=-90"
+jakarta.validation.ConstraintViolationException: showRandList.num: должно быть не меньше 5
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerWebExchangeContextFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/number?num=-90" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+		at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+		at com.example.lr1.NumControl$$SpringCGLIB$$0.showRandList(<generated>)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:145)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:293)
+		at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:474)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:57)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.request(MonoZip.java:216)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onSubscribe(MonoIgnoreThen.java:134)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:117)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:125)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onComplete(MonoFlatMap.java:189)
+		at reactor.core.publisher.Operators.complete(Operators.java:137)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:121)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-03-13 10:05:40.915  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 10:05:40.985  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 8240 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 10:05:40.990  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 10:05:41.052  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-13 10:05:41.054  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-13 10:05:42.271  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6c6003bb-202c-3248-8362-7984829bc22e
+2023-03-13 10:05:42.569  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 10:05:42.583  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 10:05:42.585  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-13 10:05:42.586  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 10:05:43.438  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 10:05:43.438  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 10:05:43.439  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 10:05:43.439  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 10:05:43.440  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 10:05:43.440  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 10:05:43.441  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 10:05:43.441  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 10:05:43.442  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 10:05:43.443  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 10:05:43.443  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 10:05:43.444  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 10:05:43.444  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 10:05:43.445  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 10:05:43.919  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 10:05:44.212  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-13 10:05:44.295  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 10:05:44.317  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 10:05:44.493  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 3.953 seconds (process running for 4.984)
+2023-03-13 10:05:44.501  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Info log
+2023-03-13 10:05:44.501  WARN DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Warning
+2023-03-13 10:05:44.502 ERROR DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Error 
+2023-03-13 10:05:44.503 FATAL DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 10:06:48.319 ERROR DESKTOP-S8A3V6O --- [io-8080-exec-10] a.w.r.e.AbstractErrorWebExceptionHandler : [3e220a86]  500 Server Error for HTTP GET "/number?num=%20-2"
+jakarta.validation.ConstraintViolationException: showRandList.num: должно быть не меньше 5
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerWebExchangeContextFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/number?num=%20-2" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+		at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+		at com.example.lr1.NumControl$$SpringCGLIB$$0.showRandList(<generated>)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:145)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:293)
+		at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:474)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:57)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.request(MonoZip.java:216)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onSubscribe(MonoIgnoreThen.java:134)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:117)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:125)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onComplete(MonoFlatMap.java:189)
+		at reactor.core.publisher.Operators.complete(Operators.java:137)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:121)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-03-13 10:10:47.402  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 10:10:47.474  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 17588 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 10:10:47.478  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 10:10:47.538  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-13 10:10:47.539  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-13 10:10:48.701  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6c6003bb-202c-3248-8362-7984829bc22e
+2023-03-13 10:10:49.015  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 10:10:49.027  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 10:10:49.029  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-13 10:10:49.031  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 10:10:49.857  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 10:10:49.858  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 10:10:49.858  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 10:10:49.858  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 10:10:49.859  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 10:10:49.859  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 10:10:49.860  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 10:10:49.860  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 10:10:49.861  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 10:10:49.861  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 10:10:49.861  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 10:10:49.862  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 10:10:49.862  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 10:10:49.863  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 10:10:50.297  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 10:10:50.586  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-13 10:10:50.665  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 10:10:50.686  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 10:10:50.865  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 3.841 seconds (process running for 4.847)
+2023-03-13 10:10:50.871  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Info log
+2023-03-13 10:10:50.872  WARN DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Warning
+2023-03-13 10:10:50.872 ERROR DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Error 
+2023-03-13 10:10:50.873 FATAL DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 10:11:09.489  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 10:11:09.568  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 4996 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 10:11:09.573  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 10:11:09.631  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-13 10:11:09.633  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-13 10:11:10.863  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6c6003bb-202c-3248-8362-7984829bc22e
+2023-03-13 10:11:11.172  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 10:11:11.183  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 10:11:11.185  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-13 10:11:11.186  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 10:11:12.011  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 10:11:12.011  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 10:11:12.012  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 10:11:12.012  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 10:11:12.013  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 10:11:12.013  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 10:11:12.013  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 10:11:12.014  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 10:11:12.014  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 10:11:12.014  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 10:11:12.015  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 10:11:12.015  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 10:11:12.016  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 10:11:12.016  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 10:11:12.444  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 10:11:12.733  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-13 10:11:12.817  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 10:11:12.841  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 10:11:13.002  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 3.894 seconds (process running for 4.926)
+2023-03-13 10:11:13.008  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Info log
+2023-03-13 10:11:13.009  WARN DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Warning
+2023-03-13 10:11:13.009 ERROR DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Error 
+2023-03-13 10:11:13.009 FATAL DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 10:12:12.924 ERROR DESKTOP-S8A3V6O --- [nio-8080-exec-1] a.w.r.e.AbstractErrorWebExceptionHandler : [5d1e8d2e]  500 Server Error for HTTP GET "/number?num=-4"
+jakarta.validation.ConstraintViolationException: showRandList.num: должно быть не меньше 5
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerWebExchangeContextFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/number?num=-4" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+		at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+		at com.example.lr1.NumControl$$SpringCGLIB$$0.showRandList(<generated>)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:145)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:293)
+		at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:474)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:57)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.request(MonoZip.java:216)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onSubscribe(MonoIgnoreThen.java:134)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:117)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:125)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onComplete(MonoFlatMap.java:189)
+		at reactor.core.publisher.Operators.complete(Operators.java:137)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:121)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-03-13 10:34:50.075  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 10:34:50.182  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 19480 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 10:34:50.188  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 10:34:50.269  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-13 10:34:50.270  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-13 10:34:52.098  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6c6003bb-202c-3248-8362-7984829bc22e
+2023-03-13 10:34:52.492  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 10:34:52.506  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 10:34:52.508  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-13 10:34:52.510  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 10:34:53.634  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 10:34:53.635  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 10:34:53.636  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 10:34:53.637  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 10:34:53.638  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 10:34:53.639  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 10:34:53.640  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 10:34:53.641  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 10:34:53.641  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 10:34:53.642  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 10:34:53.643  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 10:34:53.644  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 10:34:53.645  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 10:34:53.646  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 10:34:54.234  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 10:34:54.604  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-13 10:34:54.714  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 10:34:54.755  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 10:34:55.063  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 5.559 seconds (process running for 7.107)
+2023-03-13 10:34:55.077  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Info log
+2023-03-13 10:34:55.077  WARN DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Warning
+2023-03-13 10:34:55.078 ERROR DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Error 
+2023-03-13 10:34:55.079 FATAL DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 10:35:14.949 ERROR DESKTOP-S8A3V6O --- [nio-8080-exec-4] a.w.r.e.AbstractErrorWebExceptionHandler : [4033929b]  500 Server Error for HTTP GET "/number?num=-7"
+jakarta.validation.ConstraintViolationException: showRandList.num: должно быть не меньше 5
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerWebExchangeContextFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/number?num=-7" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+		at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+		at com.example.lr1.NumControl$$SpringCGLIB$$0.showRandList(<generated>)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:145)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:293)
+		at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:474)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:57)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.request(MonoZip.java:216)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onSubscribe(MonoIgnoreThen.java:134)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:117)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:125)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onComplete(MonoFlatMap.java:189)
+		at reactor.core.publisher.Operators.complete(Operators.java:137)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:121)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-03-13 11:10:33.156  INFO DESKTOP-S8A3V6O --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.lr1.Lr1ApplicationTests]: Lr1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-13 11:10:33.311  INFO DESKTOP-S8A3V6O --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.lr1.Lr1Application for test class com.example.lr1.Lr1ApplicationTests
+2023-03-13 11:10:33.982  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 11:10:34.074  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Starting Lr1ApplicationTests using Java 19.0.2 with PID 22400 (started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 11:10:34.079  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 11:10:35.671  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=7e192b4b-d5cf-30ec-aef8-4ac6fb0b06c0
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 11:10:37.116  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 11:10:37.129  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 11:10:37.651  INFO DESKTOP-S8A3V6O --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 11:10:38.078  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Started Lr1ApplicationTests in 4.576 seconds (process running for 6.55)
+2023-03-13 11:10:38.091  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Info log
+2023-03-13 11:10:38.091  WARN DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Warning
+2023-03-13 11:10:38.091 ERROR DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Error 
+2023-03-13 11:10:38.091 FATAL DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 11:10:51.011  INFO DESKTOP-S8A3V6O --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.lr1.Lr1ApplicationTests]: Lr1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-13 11:10:51.149  INFO DESKTOP-S8A3V6O --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.lr1.Lr1Application for test class com.example.lr1.Lr1ApplicationTests
+2023-03-13 11:10:51.923  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 11:10:52.008  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Starting Lr1ApplicationTests using Java 19.0.2 with PID 16872 (started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 11:10:52.019  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 11:10:53.667  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=7e192b4b-d5cf-30ec-aef8-4ac6fb0b06c0
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 11:10:55.230  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 11:10:55.239  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 11:10:55.239  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 11:10:55.239  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 11:10:55.851  INFO DESKTOP-S8A3V6O --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 11:10:56.335  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Started Lr1ApplicationTests in 4.939 seconds (process running for 6.963)
+2023-03-13 11:10:56.339  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Info log
+2023-03-13 11:10:56.339  WARN DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Warning
+2023-03-13 11:10:56.339 ERROR DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Error 
+2023-03-13 11:10:56.339 FATAL DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 11:11:25.875  INFO DESKTOP-S8A3V6O --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.lr1.Lr1ApplicationTests]: Lr1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-13 11:11:26.014  INFO DESKTOP-S8A3V6O --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.lr1.Lr1Application for test class com.example.lr1.Lr1ApplicationTests
+2023-03-13 11:11:26.710  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 11:11:26.797  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Starting Lr1ApplicationTests using Java 19.0.2 with PID 16820 (started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 11:11:26.803  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 11:11:28.407  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=7e192b4b-d5cf-30ec-aef8-4ac6fb0b06c0
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 11:11:29.928  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 11:11:30.491  INFO DESKTOP-S8A3V6O --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 11:11:30.963  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Started Lr1ApplicationTests in 4.751 seconds (process running for 6.742)
+2023-03-13 11:11:30.974  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Info log
+2023-03-13 11:11:30.974  WARN DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Warning
+2023-03-13 11:11:30.974 ERROR DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Error 
+2023-03-13 11:11:30.974 FATAL DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 12:16:41.069  INFO DESKTOP-S8A3V6O --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.lr1.Lr1ApplicationTests]: Lr1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-13 12:16:41.209  INFO DESKTOP-S8A3V6O --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.lr1.Lr1Application for test class com.example.lr1.Lr1ApplicationTests
+2023-03-13 12:16:41.913  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 12:16:42.005  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Starting Lr1ApplicationTests using Java 19.0.2 with PID 3660 (started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 12:16:42.005  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 12:16:43.630  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=7e192b4b-d5cf-30ec-aef8-4ac6fb0b06c0
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 12:16:45.150  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 12:16:45.156  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 12:16:45.156  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 12:16:45.156  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 12:16:45.156  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 12:16:45.156  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 12:16:45.704  INFO DESKTOP-S8A3V6O --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 12:16:46.123  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Started Lr1ApplicationTests in 4.693 seconds (process running for 6.782)
+2023-03-13 12:16:46.123  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Info log
+2023-03-13 12:16:46.123  WARN DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Warning
+2023-03-13 12:16:46.123 ERROR DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Error 
+2023-03-13 12:16:46.123 FATAL DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 12:16:57.098  INFO DESKTOP-S8A3V6O --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.lr1.Lr1ApplicationTests]: Lr1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-13 12:16:57.245  INFO DESKTOP-S8A3V6O --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.lr1.Lr1Application for test class com.example.lr1.Lr1ApplicationTests
+2023-03-13 12:16:57.943  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 12:16:58.030  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Starting Lr1ApplicationTests using Java 19.0.2 with PID 13892 (started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 12:16:58.038  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 12:16:59.691  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=7e192b4b-d5cf-30ec-aef8-4ac6fb0b06c0
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 12:17:01.229  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 12:17:01.237  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 12:17:01.237  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 12:17:01.237  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 12:17:01.237  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 12:17:01.781  INFO DESKTOP-S8A3V6O --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 12:17:02.179  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Started Lr1ApplicationTests in 4.73 seconds (process running for 6.746)
+2023-03-13 12:17:02.190  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Info log
+2023-03-13 12:17:02.190  WARN DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Warning
+2023-03-13 12:17:02.190 ERROR DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Error 
+2023-03-13 12:17:02.190 FATAL DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 12:17:36.080  INFO DESKTOP-S8A3V6O --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.lr1.Lr1ApplicationTests]: Lr1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-13 12:17:36.224  INFO DESKTOP-S8A3V6O --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.lr1.Lr1Application for test class com.example.lr1.Lr1ApplicationTests
+2023-03-13 12:17:36.960  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 12:17:37.036  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Starting Lr1ApplicationTests using Java 19.0.2 with PID 2684 (started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 12:17:37.042  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 12:17:38.684  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=7e192b4b-d5cf-30ec-aef8-4ac6fb0b06c0
+2023-03-13 12:17:40.188  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 12:17:40.189  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 12:17:40.189  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 12:17:40.189  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 12:17:40.190  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 12:17:40.190  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 12:17:40.190  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 12:17:40.191  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 12:17:40.191  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 12:17:40.191  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 12:17:40.191  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 12:17:40.191  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 12:17:40.192  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 12:17:40.192  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 12:17:40.740  INFO DESKTOP-S8A3V6O --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 12:17:41.166  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Started Lr1ApplicationTests in 4.737 seconds (process running for 6.791)
+2023-03-13 12:17:41.175  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Info log
+2023-03-13 12:17:41.175  WARN DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Warning
+2023-03-13 12:17:41.176 ERROR DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Error 
+2023-03-13 12:17:41.176 FATAL DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 13:49:33.352  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 13:49:33.434  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 17880 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 13:49:33.441  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 13:49:33.509  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-13 13:49:33.511  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-13 13:49:34.821  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6c6003bb-202c-3248-8362-7984829bc22e
+2023-03-13 13:49:35.139  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 13:49:35.150  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 13:49:35.152  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-13 13:49:35.153  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 13:49:36.035  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 13:49:36.036  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 13:49:36.036  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 13:49:36.037  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 13:49:36.038  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 13:49:36.038  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 13:49:36.039  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 13:49:36.039  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 13:49:36.040  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 13:49:36.040  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 13:49:36.041  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 13:49:36.041  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 13:49:36.042  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 13:49:36.042  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 13:49:36.488  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 13:49:36.792  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-13 13:49:36.885  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 13:49:36.908  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 13:49:37.086  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 4.154 seconds (process running for 5.299)
+2023-03-13 13:49:37.093  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Info log
+2023-03-13 13:49:37.094  WARN DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Warning
+2023-03-13 13:49:37.094 ERROR DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Error 
+2023-03-13 13:49:37.095 FATAL DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Fatal error 
+2023-03-13 13:50:34.970 ERROR DESKTOP-S8A3V6O --- [nio-8080-exec-4] a.w.r.e.AbstractErrorWebExceptionHandler : [fd3ad92]  500 Server Error for HTTP GET "/number?num=-9"
+jakarta.validation.ConstraintViolationException: showRandList.num: должно быть не меньше 5
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerWebExchangeContextFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/number?num=-9" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:138)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+		at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+		at com.example.lr1.NumControl$$SpringCGLIB$$0.showRandList(<generated>)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:145)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:293)
+		at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:474)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:57)
+		at reactor.core.publisher.MonoZip$ZipCoordinator.request(MonoZip.java:216)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onSubscribe(MonoIgnoreThen.java:134)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:117)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:125)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onComplete(MonoFlatMap.java:189)
+		at reactor.core.publisher.Operators.complete(Operators.java:137)
+		at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:121)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485)
+		at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-03-13 13:57:40.258  INFO DESKTOP-S8A3V6O --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.lr1.Lr1ApplicationTests]: Lr1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-13 13:57:40.353  INFO DESKTOP-S8A3V6O --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.lr1.Lr1Application for test class com.example.lr1.Lr1ApplicationTests
+2023-03-13 13:57:40.822  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 13:57:40.885  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Starting Lr1ApplicationTests using Java 19.0.2 with PID 2420 (started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-13 13:57:40.889  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : No active profile set, falling back to 1 default profile: "default"
+2023-03-13 13:57:42.102  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=7e192b4b-d5cf-30ec-aef8-4ac6fb0b06c0
+2023-03-13 13:57:43.162  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-13 13:57:43.162  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-13 13:57:43.162  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-13 13:57:43.162  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-13 13:57:43.162  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-13 13:57:43.162  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-13 13:57:43.162  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-13 13:57:43.163  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-13 13:57:43.163  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-13 13:57:43.163  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-13 13:57:43.163  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-13 13:57:43.163  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-13 13:57:43.163  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-13 13:57:43.163  INFO DESKTOP-S8A3V6O --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-13 13:57:43.576  INFO DESKTOP-S8A3V6O --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-13 13:57:43.917  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1ApplicationTests                : Started Lr1ApplicationTests in 3.422 seconds (process running for 4.84)
+2023-03-13 13:57:43.924  INFO DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Info log
+2023-03-13 13:57:43.924  WARN DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Warning
+2023-03-13 13:57:43.925 ERROR DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Error 
+2023-03-13 13:57:43.925 FATAL DESKTOP-S8A3V6O --- [           main] c.e.l.Lr1Application                     : Fatal error 

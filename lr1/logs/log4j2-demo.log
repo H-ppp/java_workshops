@@ -1,0 +1,172 @@
+2023-03-23 17:21:56.078  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 17:21:56.185  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 1380 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-23 17:21:56.192  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 17:21:56.282  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 17:21:56.283  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 17:21:58.170  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6b2a3b64-f777-3fb6-bc52-4c54de54c70b
+2023-03-23 17:21:58.626  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-23 17:21:58.640  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-23 17:21:58.642  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-23 17:21:58.643  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-23 17:21:59.948  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-23 17:21:59.949  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-23 17:21:59.949  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-23 17:21:59.950  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-23 17:21:59.951  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-23 17:21:59.951  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-23 17:21:59.952  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-23 17:21:59.953  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-23 17:21:59.953  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-23 17:21:59.954  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-23 17:21:59.954  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-23 17:21:59.955  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-23 17:21:59.956  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-23 17:21:59.956  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-23 17:22:00.490  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-23 17:22:00.902  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-23 17:22:01.028  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-23 17:22:01.068  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-23 17:22:01.348  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 5.896 seconds (process running for 7.726)
+2023-03-23 17:22:38.318  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Incoming number: 13
+2023-03-23 17:22:38.320  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 0
+2023-03-23 17:22:38.321  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 9
+2023-03-23 17:22:38.322  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 4
+2023-03-23 17:22:38.323  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 2
+2023-03-23 17:22:38.324  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 8
+2023-03-23 17:22:52.404  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Incoming number: 8
+2023-03-23 17:22:52.405  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 5
+2023-03-23 17:22:52.407  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 1
+2023-03-23 17:22:52.408  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 8
+2023-03-23 17:22:52.408  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 7
+2023-03-23 17:22:52.410  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 1
+2023-03-23 17:22:56.082  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-5] c.e.l.NumControl                         : Incoming number: 7
+2023-03-23 17:22:56.083  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-5] c.e.l.NumControl                         : Generated value: 4
+2023-03-23 17:22:56.084  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-5] c.e.l.NumControl                         : Generated value: 0
+2023-03-23 17:22:56.084  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-5] c.e.l.NumControl                         : Generated value: 2
+2023-03-23 17:22:56.085  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-5] c.e.l.NumControl                         : Generated value: 6
+2023-03-23 17:22:56.086  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-5] c.e.l.NumControl                         : Generated value: 4
+2023-03-23 17:22:59.927  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-7] c.e.l.NumControl                         : Incoming number: 13
+2023-03-23 17:22:59.929  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-7] c.e.l.NumControl                         : Using cache
+2023-03-23 17:23:03.581  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-6] c.e.l.NumControl                         : Incoming number: 8
+2023-03-23 17:23:03.582  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-6] c.e.l.NumControl                         : Using cache
+2023-03-23 17:24:31.370  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 17:24:31.472  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 10172 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-23 17:24:31.480  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 17:24:31.563  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 17:24:31.564  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 17:24:33.289  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6b2a3b64-f777-3fb6-bc52-4c54de54c70b
+2023-03-23 17:24:33.732  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-23 17:24:33.746  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-23 17:24:33.748  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-23 17:24:33.749  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-23 17:24:34.908  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-23 17:24:34.909  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-23 17:24:34.909  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-23 17:24:34.910  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-23 17:24:34.910  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-23 17:24:34.911  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-23 17:24:34.912  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-23 17:24:34.913  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-23 17:24:34.913  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-23 17:24:34.914  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-23 17:24:34.915  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-23 17:24:34.916  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-23 17:24:34.917  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-23 17:24:34.918  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-23 17:24:35.492  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-23 17:24:35.837  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-23 17:24:35.954  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-23 17:24:35.984  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-23 17:24:36.276  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 5.513 seconds (process running for 7.213)
+2023-03-23 17:24:43.824  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Incoming number: 8
+2023-03-23 17:24:43.826  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 2
+2023-03-23 17:24:43.827  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 5
+2023-03-23 17:24:43.828  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 7
+2023-03-23 17:24:43.829  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 4
+2023-03-23 17:24:43.830  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 8
+2023-03-23 17:24:48.101  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-2] c.e.l.NumControl                         : Incoming number: 8
+2023-03-23 17:24:48.102  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-2] c.e.l.NumControl                         : Using cache
+2023-03-23 17:25:46.320  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 17:25:46.422  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 16224 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-23 17:25:46.431  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 17:25:46.517  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 17:25:46.518  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 17:25:48.250  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6b2a3b64-f777-3fb6-bc52-4c54de54c70b
+2023-03-23 17:25:48.648  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-23 17:25:48.661  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-23 17:25:48.663  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-23 17:25:48.664  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-23 17:25:49.812  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-23 17:25:49.813  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-23 17:25:49.814  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-23 17:25:49.815  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-23 17:25:49.816  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-23 17:25:49.816  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-23 17:25:49.817  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-23 17:25:49.818  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-23 17:25:49.818  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-23 17:25:49.819  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-23 17:25:49.820  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-23 17:25:49.821  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-23 17:25:49.821  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-23 17:25:49.822  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-23 17:25:50.393  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-23 17:25:50.745  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-23 17:25:50.854  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-23 17:25:50.889  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-23 17:25:51.197  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 5.437 seconds (process running for 7.235)
+2023-03-23 17:25:58.918  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Incoming number: 8
+2023-03-23 17:25:58.920  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 4
+2023-03-23 17:25:58.921  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 6
+2023-03-23 17:25:58.922  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 6
+2023-03-23 17:25:58.923  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 4
+2023-03-23 17:25:58.924  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 2
+2023-03-23 17:26:02.027  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-2] c.e.l.NumControl                         : Incoming number: 6
+2023-03-23 17:26:02.029  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-2] c.e.l.NumControl                         : Generated value: 3
+2023-03-23 17:26:02.031  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-2] c.e.l.NumControl                         : Generated value: 5
+2023-03-23 17:26:02.032  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-2] c.e.l.NumControl                         : Generated value: 6
+2023-03-23 17:26:02.034  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-2] c.e.l.NumControl                         : Generated value: 3
+2023-03-23 17:26:02.035  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-2] c.e.l.NumControl                         : Generated value: 6
+2023-03-23 17:26:54.677  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Incoming number: 7
+2023-03-23 17:26:54.679  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 2
+2023-03-23 17:26:54.681  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 2
+2023-03-23 17:26:54.682  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 3
+2023-03-23 17:26:54.683  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 3
+2023-03-23 17:26:54.684  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-3] c.e.l.NumControl                         : Generated value: 2
+2023-03-23 17:27:21.696  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-4] c.e.l.NumControl                         : Incoming number: 6
+2023-03-23 17:27:21.697  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-4] c.e.l.NumControl                         : Using cache
+2023-03-23 17:29:48.466  INFO DESKTOP-S8A3V6O --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 17:29:48.563  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Starting Lr1Application using Java 19.0.2 with PID 9064 (D:\Work\javalabs\lr1\target\classes started by Lenovo in D:\Work\javalabs\lr1)
+2023-03-23 17:29:48.571  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 17:29:48.655  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 17:29:48.656  INFO DESKTOP-S8A3V6O --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 17:29:50.355  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=6b2a3b64-f777-3fb6-bc52-4c54de54c70b
+2023-03-23 17:29:50.790  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-03-23 17:29:50.803  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-23 17:29:50.804  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-03-23 17:29:50.805  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-23 17:29:51.974  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-23 17:29:51.975  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-23 17:29:51.976  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-23 17:29:51.977  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-23 17:29:51.977  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-23 17:29:51.978  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-23 17:29:51.979  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-23 17:29:51.980  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-23 17:29:51.980  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-23 17:29:51.981  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-23 17:29:51.982  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-23 17:29:51.982  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-23 17:29:51.983  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-23 17:29:51.984  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-23 17:29:52.574  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-23 17:29:52.961  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-23 17:29:53.063  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-23 17:29:53.094  INFO DESKTOP-S8A3V6O --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-23 17:29:53.406  INFO DESKTOP-S8A3V6O --- [  restartedMain] c.e.l.Lr1Application                     : Started Lr1Application in 5.514 seconds (process running for 7.31)
+2023-03-23 17:30:04.514  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Incoming number: 13
+2023-03-23 17:30:04.515  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 11
+2023-03-23 17:30:04.516  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 9
+2023-03-23 17:30:04.517  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 10
+2023-03-23 17:30:04.519  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 6
+2023-03-23 17:30:04.520  INFO DESKTOP-S8A3V6O --- [nio-8080-exec-1] c.e.l.NumControl                         : Generated value: 7
