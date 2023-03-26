@@ -2,18 +2,39 @@ package com.example.lr1;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import com.example.lr1.Counter.CountThread;
+import com.example.lr1.Exceptions.IllegalArguments;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.Map;
+import java.util.ArrayList;
+
 
 public class NumTest {
+    NumControl numControl = new NumControl(new Cache<Integer, ArrayList <Integer>>(), new CountThread());
+
     @Test
-    void validateException() {
-        NumControl numControl = new NumControl(new Cache<Integer, Map<Integer, Integer>>());
-        Map<Integer, Integer> testMap = numControl.showRandList(13);
+    void isGenNumbersRight() throws IllegalArgumentException, IllegalArguments {
+
+        ArrayList<Integer> testList = numControl.showRandList(13);
         // System.out.println(testMap.toString());
-        for (Integer i = 1; i <= 5; i++) {
-            assertTrue(testMap.get(i) <= 13);
+        for (Integer i = 0; i < 5; i++) {
+            assertTrue(testList.get(i) <= 13);
         }
+    }
+
+    @Test
+    void ifLessThanFive(){
+        Assertions.assertThrows(IllegalArguments.class, ()->{
+            numControl.showRandList(2);
+        });
+    }
+
+    @Test
+    void ifGreaterThanHundred(){
+        Assertions.assertThrows(IllegalArgumentException.class, ()->{
+            numControl.showRandList(200);
+        });
     }
 }
