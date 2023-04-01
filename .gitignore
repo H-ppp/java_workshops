@@ -36,3 +36,5 @@ build/
 
 ### VS Code ###
 *.vscode/
+lr1/target/classes/com/example/lr1/NumControl.class
+lr1/target/test-classes/com/example/lr1/NumTest.class

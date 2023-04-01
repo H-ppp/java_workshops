@@ -2,8 +2,8 @@ package com.example.lr1;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.example.lr1.Counter.CountThread;
-import com.example.lr1.Exceptions.IllegalArguments;
+import com.example.lr1.count.CountThread;
+import com.example.lr1.exception.IllegalArguments;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
