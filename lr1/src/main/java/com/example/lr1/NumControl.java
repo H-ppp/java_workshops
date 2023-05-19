@@ -2,17 +2,24 @@ package com.example.lr1;
 
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.lr1.async.NumberAsync;
+import com.example.lr1.cache.Cache;
 import com.example.lr1.count.CountThread;
 import com.example.lr1.count.Counter;
 import com.example.lr1.exception.IllegalArguments;
+import com.example.lr1.logicOfComputing.FindMinMaxAver;
+import com.example.lr1.logicOfComputing.RandCalculate;
+import com.example.lr1.model.NumberModel;
+import com.example.lr1.service.NumberServ;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.configurationprocessor.json.JSONException;
 import org.springframework.boot.configurationprocessor.json.JSONObject;
-//import org.springframework.boot.configurationprocessor.json.JSONException;
-//import org.springframework.boot.configurationprocessor.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,11 +30,8 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
-import java.util.Collections;
-
 import java.util.List;
 import java.util.Map;
-import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -40,84 +44,42 @@ public class NumControl {
 
     private Cache<Integer, ArrayList<Integer>> cache;
     private CountThread countTread;
-    public RandCalculate randCalculate;
+    public RandCalculate randCalculate = new RandCalculate();
+    public FindMinMaxAver filters = new FindMinMaxAver();
+    private NumberServ numberServ;
 
+    @Autowired
+    private NumberAsync numberAsync = new NumberAsync(numberServ);
 
-
-    // @Autowired
-    public NumControl(Cache<Integer, ArrayList<Integer>> cache, CountThread countTread) {
+    @Autowired
+    public NumControl(Cache<Integer, ArrayList<Integer>> cache, CountThread countTread, NumberServ numberServ) {
         this.cache = cache;
         this.countTread = countTread;
-        // this.randCalculate = randCalculate;
-    }
-
-    public JSONObject listToAggJson(ArrayList<Integer> al) {
-        int minInpVal = al.stream().min(Integer::compareTo).get();
-        LOGGER.info("Min input value: " + minInpVal);
-
-        int maxInpVal = al.stream().max(Integer::compareTo).get();
-        LOGGER.info("Max input value: " + maxInpVal);
-
-        OptionalDouble averInpVal = al.stream().mapToInt(n -> n).average();
-        LOGGER.info("Average input value: " + averInpVal);
-        
-        JSONObject resp = new JSONObject();
-        try{
-        resp.put("minOutputValue: ", minInpVal);
-        resp.put("maxOutputValue: ", maxInpVal);
-        resp.put("averageOutputValue: ", averInpVal);
-        resp.put("generated values: ", al.toString());
-        }
-        catch(JSONException e){
-            e.printStackTrace();
-        }
-
-        return resp;
-    }
-
-    public ArrayList<Integer> generateNums(Integer num)
-            throws IllegalArgumentException, IllegalArguments {
-        countTread.start();
-
-        LOGGER.info("Incoming number: " + num);
-        if (num < 5) {
-            LOGGER.info("Entered number shall not be less than 5. Your number: " + num);
-            LOGGER.info("Requests: " + Counter.getCountVal());
-            throw new IllegalArguments("Entered number must not be less than 5");
-        }
-        if (num > 100) {
-            LOGGER.error("Entered number must not be greater than 100");
-            LOGGER.info("Requests: " + Counter.getCountVal());
-            throw new IllegalArgumentException("Entered number must not be greater than 100");
-        }
-        ArrayList<Integer> randVals = new ArrayList<Integer>();
-
-        if (cache.contain(num)) {
-            LOGGER.info("Using cache");
-            LOGGER.info("Requests: " + Counter.getCountVal());
-            return cache.getFromCache(num);
-        } else {
-            for (int i = 1; i <= 5; i++) {
-                int yourNumber = (int) (Math.random() * (num + 1));
-                LOGGER.info("Generated value: " + yourNumber);
-                randVals.add(yourNumber);
-            }
-
-            Collections.sort(randVals, (o1, o2) -> (o1 < o2) ? -1 : (o1 > o2) ? 1 : 0);
-            Collectors.toList();
-
-            cache.saveInCache(num, randVals);
-
-        }
-        LOGGER.info("Requests: " + Counter.getCountVal());
-
-        return randVals;
+        this.numberServ = numberServ;
     }
 
     @RequestMapping("/number")
     public ArrayList<Integer> showRandList(@RequestParam(value = "num") Integer num)
             throws IllegalArgumentException, IllegalArguments {
-        return generateNums(num);
+
+        countTread.start();
+        NumberModel numberModel = new NumberModel();
+        ArrayList<Integer> yourRandVals = new ArrayList<Integer>();
+        LOGGER.info("Incoming number: " + num);
+        LOGGER.info("Requests: " + Counter.getCountVal());
+        numberModel.setNum(num);
+        if (cache.contain(num)) {
+            LOGGER.info("Using cache");
+            return cache.getFromCache(num);
+        } else {
+            yourRandVals = randCalculate.generateNums(num);
+            LOGGER.info("Generated value: " + yourRandVals);
+            cache.saveInCache(num, yourRandVals);
+
+        }
+        numberModel.setGneneratedVals(yourRandVals);
+        numberServ.save(numberModel);
+        return yourRandVals;
     }
 
     @RequestMapping("/counter")
@@ -127,11 +89,12 @@ public class NumControl {
 
     @PostMapping(value = "/number_JSON", produces = "application/json", consumes = "application/json")
     public ResponseEntity<?> showRandListBulk(@RequestBody Map<String, Object> numsJSON) throws JSONException {
+
+        countTread.start();
         ArrayList<Integer> nums;
         LOGGER.info("nums:" + numsJSON.toString());
         Stream<ArrayList<Integer>> result_lists;
         List<JSONObject> result_jsons = null;
-
 
         nums = (ArrayList<Integer>) (numsJSON.get("nums"));
 
@@ -139,7 +102,15 @@ public class NumControl {
         result_lists = range.stream().map(i -> {
             ArrayList<Integer> x = null;
             try {
-                x = generateNums(nums.get(i));
+                if (cache.contain(nums.get(i))) {
+                    LOGGER.info("Using cache");
+                    x = cache.getFromCache(nums.get(i));
+                } else {
+
+                    x = randCalculate.generateNums(nums.get(i));
+                    cache.saveInCache(nums.get(i), x);
+                }
+
             } catch (IllegalArgumentException | IllegalArguments e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -147,48 +118,33 @@ public class NumControl {
                 return x;
             }
 
-        });//.collect(Collectors.toList());
-            
-        result_jsons = result_lists.map(i -> listToAggJson(i)).collect(Collectors.toList());
-        
+        });
 
-        int minInpVal = nums.stream().min(Integer::compareTo).get();
-        LOGGER.info("Min input value: " + minInpVal);
-
-        int maxInpVal = nums.stream().max(Integer::compareTo).get();
-        LOGGER.info("Max input value: " + maxInpVal);
-
-        OptionalDouble averInpVal = nums.stream().mapToInt(n -> n).average();
-        LOGGER.info("Average input value: " + averInpVal);
+        LOGGER.info("Output results ");
+        result_jsons = result_lists.map(i -> filters.listToAggJson(i)).collect(Collectors.toList());
 
         JSONObject resp = new JSONObject();
-        resp.put("minInputValue: ", minInpVal);
-        resp.put("maxInputValue: ", maxInpVal);
-        resp.put("averageInputValue: ", averInpVal);
-        resp.put("Input values: ", nums.toString());
-        
+        LOGGER.info("Input results");
+        resp = filters.listToAggJson(nums);
+
         result_jsons.add(resp);
 
-        /*
-          int minOutVal, maxOutVal;
-          OptionalDouble averOutVal;
-          
-          result.stream().map(i -> {
-          minOutVal = i.stream().min(Integer::compareTo).get();
-          LOGGER.info("Min output value: " + minOutVal);
-          resp.put("minOutVal: ", minOutVal);
-          
-          maxOutVal = i.stream().max(Integer::compareTo).get();
-          LOGGER.info("Max output value: " + maxOutVal);
-          resp.put("maxOutVal: ", maxOutVal);
-          
-          averOutVal = i.stream().mapToInt(n -> n).average();
-          LOGGER.info("Average output value: " + averOutVal);
-          resp.put("averOutVal: ", averOutVal);
-          });
-        */
-        
+        LOGGER.info("Requests: " + Counter.getCountVal());
+
         return new ResponseEntity<>(result_jsons.toString(), HttpStatus.OK);
+    }
+
+    @GetMapping("/result/{id}")
+    public NumberModel result(@PathVariable("id") int id) {
+        return numberServ.findNecessary(id);
+    }
+
+    @PostMapping("/async")
+    public Integer asyncCall(@RequestBody NumberModel numberModel) {
+
+        int id = numberAsync.createNewAsync(numberModel);
+        numberAsync.calculateAsync(id);
+        return id;
     }
 
 }
