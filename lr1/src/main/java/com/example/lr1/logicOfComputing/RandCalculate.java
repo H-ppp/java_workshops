@@ -1,4 +1,4 @@
-package com.example.lr1.logicOfComputing;
+package com.example.lr1.logicofcomputing;
 
 import com.example.lr1.exception.IllegalArguments;
 
@@ -19,7 +19,7 @@ public class RandCalculate {
     };
 
     public ArrayList<Integer> generateNums(Integer num)
-            throws IllegalArgumentException, IllegalArguments {
+            throws IllegalArgumentException, IllegalArguments, InterruptedException {
 
         if (num < 5) {
             LOGGER.info("Entered number shall not be less than 5. Your number: " + num);
@@ -32,7 +32,12 @@ public class RandCalculate {
 
         ArrayList<Integer> randVals = new ArrayList<Integer>();
         ArrayList<Integer> lambdaRandVals = new ArrayList<Integer>();
-
+        try {
+            Thread.sleep(15000);
+        } catch (InterruptedException e) {
+           
+            e.printStackTrace();
+        }
         for (int i = 1; i <= 5; i++) {
             int yourNumber = (int) (Math.random() * (num + 1));
             randVals.add(yourNumber);

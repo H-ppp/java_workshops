@@ -1,4 +1,4 @@
-package com.example.lr1.logicOfComputing;
+package com.example.lr1.logicofcomputing;
 
 
 import java.util.ArrayList;

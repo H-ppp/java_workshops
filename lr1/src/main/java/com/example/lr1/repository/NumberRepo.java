@@ -7,5 +7,4 @@ import com.example.lr1.model.NumberModel;
 
 @Repository
 public interface NumberRepo extends JpaRepository<NumberModel, Integer> {
-
 }

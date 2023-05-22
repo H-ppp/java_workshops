@@ -17,10 +17,9 @@ public class NumTest {
     NumControl numControl = new NumControl(new Cache<Integer, ArrayList <Integer>>(), new CountThread(), new NumberServ(null));
 
     @Test
-    void isGenNumbersRight() throws IllegalArgumentException, IllegalArguments {
+    void isGenNumbersRight() throws IllegalArgumentException, IllegalArguments, InterruptedException {
 
         ArrayList<Integer> testList = numControl.showRandList(13);
-        // System.out.println(testMap.toString());
         for (Integer i = 0; i < 5; i++) {
             assertTrue(testList.get(i) <= 13);
         }

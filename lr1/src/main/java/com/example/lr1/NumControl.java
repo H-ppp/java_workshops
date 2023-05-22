@@ -7,8 +7,8 @@ import com.example.lr1.cache.Cache;
 import com.example.lr1.count.CountThread;
 import com.example.lr1.count.Counter;
 import com.example.lr1.exception.IllegalArguments;
-import com.example.lr1.logicOfComputing.FindMinMaxAver;
-import com.example.lr1.logicOfComputing.RandCalculate;
+import com.example.lr1.logicofcomputing.FindMinMaxAver;
+import com.example.lr1.logicofcomputing.RandCalculate;
 import com.example.lr1.model.NumberModel;
 import com.example.lr1.service.NumberServ;
 
@@ -60,7 +60,7 @@ public class NumControl {
 
     @RequestMapping("/number")
     public ArrayList<Integer> showRandList(@RequestParam(value = "num") Integer num)
-            throws IllegalArgumentException, IllegalArguments {
+            throws IllegalArgumentException, IllegalArguments, InterruptedException {
 
         countTread.start();
         NumberModel numberModel = new NumberModel();
@@ -93,13 +93,13 @@ public class NumControl {
         countTread.start();
         ArrayList<Integer> nums;
         LOGGER.info("nums:" + numsJSON.toString());
-        Stream<ArrayList<Integer>> result_lists;
-        List<JSONObject> result_jsons = null;
+        Stream<ArrayList<Integer>> resultLists;
+        List<JSONObject> resultJsons = null;
 
         nums = (ArrayList<Integer>) (numsJSON.get("nums"));
 
         List<Integer> range = IntStream.rangeClosed(0, nums.size() - 1).boxed().toList();
-        result_lists = range.stream().map(i -> {
+        resultLists = range.stream().map(i -> {
             ArrayList<Integer> x = null;
             try {
                 if (cache.contain(nums.get(i))) {
@@ -112,8 +112,7 @@ public class NumControl {
                 }
 
             } catch (IllegalArgumentException | IllegalArguments e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
+               LOGGER.info("Wrong argument!");
             } finally {
                 return x;
             }
@@ -121,17 +120,17 @@ public class NumControl {
         });
 
         LOGGER.info("Output results ");
-        result_jsons = result_lists.map(i -> filters.listToAggJson(i)).collect(Collectors.toList());
+        resultJsons = resultLists.map(i -> filters.listToAggJson(i)).collect(Collectors.toList());
 
         JSONObject resp = new JSONObject();
         LOGGER.info("Input results");
         resp = filters.listToAggJson(nums);
 
-        result_jsons.add(resp);
+        resultJsons.add(resp);
 
         LOGGER.info("Requests: " + Counter.getCountVal());
 
-        return new ResponseEntity<>(result_jsons.toString(), HttpStatus.OK);
+        return new ResponseEntity<>(resultJsons.toString(), HttpStatus.OK);
     }
 
     @GetMapping("/result/{id}")
